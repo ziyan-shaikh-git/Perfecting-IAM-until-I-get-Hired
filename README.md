@@ -1,4 +1,4 @@
-https://github.com/ziyan-shaikh-git/Perfecting-IAM-until-I-get-Hired/Challenge_Photo.png
+###### [![Challenge photo](Perfecting-IAM-until-I-get-Hired/Challenge_Photo.png)](Perfecting-IAM-until-I-get-Hired/Challenge_Photo.png)
 
 # Perfecting-IAM-until-I-get-Hired
 
