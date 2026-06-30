@@ -1,4 +1,4 @@
-###### [![Challenge_photo](Perfecting-IAM-until-I-get-Hired/Challenge_Photo.png)](Perfecting-IAM-until-I-get-Hired/Challenge_Photo.png)
+###### [![Challenge Cover](Challenge_Photo.png)](Challenge_Photo.png)
 
 # Perfecting-IAM-until-I-get-Hired
 
