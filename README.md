@@ -1,3 +1,5 @@
+https://github.com/ziyan-shaikh-git/Perfecting-IAM-until-I-get-Hired/Challenge_Photo.png
+
 # Perfecting-IAM-until-I-get-Hired
 
 Today marks the first day of my personal Challenge : Perfecting IAM Until I Get Hired. It’s a promise I’m making to myself. 
