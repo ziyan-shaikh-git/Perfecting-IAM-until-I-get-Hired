@@ -84,7 +84,7 @@
 
 ##### &#x20;
 
-##### &#x20;Step 3 — Entra ID setup and User assignment
+##### &#x20;Step 3 - Entra ID setup and User assignment
 
 
 
@@ -106,7 +106,7 @@
 
 ##### &#x20;
 
-##### &#x20;Step 4 — Added Groups, explored group types and Membership types
+##### &#x20;Step 4 - Added Groups, explored group types and Membership types
 
 
 
@@ -134,7 +134,7 @@
 
 ##### &#x20;
 
-##### &#x20;Step 5 — Deleted Groups and users, restored them and understood restoration conditions
+##### &#x20;Step 5 - Deleted Groups and users, restored them and understood restoration conditions
 
 
 
@@ -157,7 +157,7 @@
 
 ##### &#x20;
 
-##### &#x20;Step 6 — Invited an External User
+##### &#x20;Step 6 - Invited an External User
 
 
 
@@ -195,7 +195,7 @@
 
 
 
-### 5\. Issues Faced \& How I Solved Them (Optional but impressive)
+### 5\. Issues Faced \& How I Solved Them 
 
 
 
