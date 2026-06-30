@@ -56,7 +56,8 @@
 
 ###### My first Azure account was ready, it also gave me USD 200 in credits to spend on Azure!
 
-###### [![Screenshot Step 1](Azure_Homepage.png)](Screenshots/Azure_Homepage.png)
+
+###### [![Screenshot Step 1](Screenshots/Azure_Homepage.png)](Screenshots/Azure_Homepage.png)
 
 
 
