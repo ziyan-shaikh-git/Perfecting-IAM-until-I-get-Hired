@@ -78,7 +78,7 @@
 
 ###### In the coming days, I will explore even more of the features that come with my Azure membership, create virtual machines and use them as resources to be assigned to users and groups on Entra.
 
-###### !\[Screenshot Step 2](../Screenshots/lab01-step2.png)
+###### [![Screenshot Step 2](Screenshots/Exploring_Azure.png)](Screenshots/Exploring_Azure.png)
 
 
 
@@ -100,7 +100,7 @@
 
 ###### 
 
-###### !\[Screenshot Step 3](../Screenshots/lab01-step3.png)
+###### [![Screenshot Step 3](Screenshots/List_of_Users.png)](Screenshots/List_of_Users.png)
 
 
 
@@ -129,6 +129,8 @@
 ###### I assigned admin level or management level users Inside the security group and the rest in the M65 Group.
 
 
+###### [![Screenshot Step 4](Screenshots/Security_Group_Created.png)](Screenshots/Security_Group_Created.png)
+
 
 ##### &#x20;
 
@@ -146,7 +148,12 @@
 
 ###### Its good to know that in real production environments, the massive amount of data linked to each entity is covered by this restoration Policy.
 
+###### [![Screenshot Step 5](Screenshots/Deleting_multiple_groups.png)](Screenshots/Deleting_multiple_groups.png)
 
+###### [![Screenshot Step 5](Screenshots/Deleted_Group_Restoration.png)](Screenshots/Deleted_Group_Restoration.png)
+
+
+###### [![Screenshot Step 5](Screenshots/Deleted_User_Restoration.png)](Screenshots/Deleted_User_Restoration.png)
 
 ##### &#x20;
 
@@ -168,7 +175,7 @@
 
 ###### Hence, I was able to simulate what it would look like when B2B relationships require inviting an external auditor to audit their own security measures.
 
-
+###### [![Screenshot Step 5](Screenshots/External_User_Invite.png)](Screenshots/External_User_Invite.png)
 
 
 
