@@ -21,7 +21,7 @@ To manage user roles, licenses, and application permissions in Microsoft Entra I
 
 ---
 
-### **Step 1 — Created a New Entra ID Tenant and Initial User**
+### **Step 1 - Created a New Entra ID Tenant and Initial User**
 
 I started by creating a new Microsoft Entra ID tenant and adding an initial user.  
 This established the environment needed to test role assignments, licenses, and app permissions.
@@ -30,7 +30,7 @@ This established the environment needed to test role assignments, licenses, and 
 
 ---
 
-### **Step 2 — Logged In as Chris Green (Without Admin Roles)**
+### **Step 2 - Logged In as Chris Green (Without Admin Roles)**
 
 Next, I logged in as **Chris Green**, a standard user with no administrative roles assigned.  
 This helped me understand the default capabilities of a non-privileged user in Entra ID.
@@ -39,7 +39,7 @@ This helped me understand the default capabilities of a non-privileged user in E
 
 ---
 
-### **Step 3 — Verified Chris Cannot Create Applications**
+### **Step 3 - Verified Chris Cannot Create Applications**
 
 While logged in as Chris, I attempted to create an application in the Entra App Gallery.  
 The portal showed that Chris did **not** have permission to create apps, confirming the lack of appropriate roles.
@@ -48,7 +48,7 @@ The portal showed that Chris did **not** have permission to create apps, confirm
 
 ---
 
-### **Step 4 — Assigned Application Administrator Role to Chris**
+### **Step 4 - Assigned Application Administrator Role to Chris**
 
 Using the Entra Admin Center, I assigned the **Application Administrator** role to Chris.  
 This role allows users to create and manage app registrations and enterprise applications.
@@ -57,7 +57,7 @@ This role allows users to create and manage app registrations and enterprise app
 
 ---
 
-### **Step 5 — Chris Gains Permission to Create Own Apps**
+### **Step 5 - Chris Gains Permission to Create Own Apps**
 
 After the role assignment, Chris now had the ability to create his own applications in the App Gallery.  
 This demonstrates how role changes immediately affect user capabilities.
@@ -66,7 +66,7 @@ This demonstrates how role changes immediately affect user capabilities.
 
 ---
 
-### **Step 6 — Performed Bulk Import of Users**
+### **Step 6 - Performed Bulk Import of Users**
 
 I then performed a **bulk import of users** using the Microsoft 365 Admin Center.  
 This is a common IAM scenario for onboarding multiple users efficiently.
@@ -75,7 +75,7 @@ This is a common IAM scenario for onboarding multiple users efficiently.
 
 ---
 
-### **Step 7 — Reviewed CSV File Containing User Data**
+### **Step 7 - Reviewed CSV File Containing User Data**
 
 To support the bulk import, I used a CSV file containing user details such as display name, username, and password settings.  
 Reviewing the CSV ensured that the data structure matched the required format for successful import.
@@ -84,7 +84,7 @@ Reviewing the CSV ensured that the data structure matched the required format fo
 
 ---
 
-### **Step 8 — Installed Microsoft Graph PowerShell Module**
+### **Step 8 - Installed Microsoft Graph PowerShell Module**
 
 To automate identity tasks, I installed the **Microsoft Graph PowerShell module**.  
 This module is the modern way to interact with Entra ID programmatically and replaces older AzureAD cmdlets.
@@ -93,7 +93,7 @@ This module is the modern way to interact with Entra ID programmatically and rep
 
 ---
 
-### **Step 9 — Created a New User Using Microsoft Graph**
+### **Step 9 - Created a New User Using Microsoft Graph**
 
 Using the `New-MgUser` cmdlet, I created a new user via PowerShell.  
 I resolved initial domain-related issues by using the correct verified domain, demonstrating practical troubleshooting.
@@ -102,7 +102,7 @@ I resolved initial domain-related issues by using the correct verified domain, d
 
 ---
 
-### **Step 10 — Verified New User in the Entra Admin Center GUI**
+### **Step 10 - Verified New User in the Entra Admin Center GUI**
 
 After creating the user with PowerShell, I confirmed that the new account appeared in the Entra Admin Center.  
 This validated that the PowerShell operation successfully synchronized with the portal.
@@ -111,7 +111,7 @@ This validated that the PowerShell operation successfully synchronized with the 
 
 ---
 
-### **Step 11 — Assigned P2 License to Monica Thomson**
+### **Step 11 - Assigned P2 License to Monica Thomson**
 
 In the Microsoft Learn lab, the suggested license was Windows 10/11 Enterprise.  
 In my environment, I instead assigned the **Microsoft Entra ID P2 license** to **Monica Thomson** using the Microsoft 365 Admin Center, aligning the exercise with my available licenses.
