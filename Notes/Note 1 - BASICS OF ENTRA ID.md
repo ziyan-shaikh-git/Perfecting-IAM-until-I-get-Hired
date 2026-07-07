@@ -72,7 +72,7 @@ Members are added based on rules, creating a dynamic group.
 
 
 
-These groups are still either a Security Group or Microsoft 365 Group — only their members are controlled by rules.
+These groups are still either a Security Group or Microsoft 365 Group ; only their members are controlled by rules.
 
 
 
@@ -80,7 +80,7 @@ Note: Once created, you cannot change the group type.
 
 
 
-Note: The deleted group (30-day policy) does not apply to both types — security groups are deleted directly.
+Note: The deleted group (30-day policy) does not apply to both types ; security groups are deleted directly.
 
 
 
@@ -104,7 +104,7 @@ You can assign specific security permissions or licenses to groups and add users
 
 
 
-Practical: Created two groups — one Security Group and one M365 Group. Tested deletion and restoration.
+Practical: Created two groups ; one Security Group and one M365 Group. Tested deletion and restoration.
 
 
 
@@ -148,7 +148,7 @@ Dynamic Device: Added/removed automatically based on device properties.
 
 
 
-Once selected, you’ll define a Dynamic Query — a rule that becomes a parameter for user inclusion/exclusion.
+Once selected, you’ll define a Dynamic Query ; a rule that becomes a parameter for user inclusion/exclusion.
 
 
 
@@ -282,9 +282,6 @@ Removed and restored users/groups.
 
 Added external identity (guest user).
 
-
-
-Date: 18th June 2026.
 
 
 
