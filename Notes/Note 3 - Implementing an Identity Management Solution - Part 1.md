@@ -1,5 +1,5 @@
-# **Implementing an Identity Management Solution**
-### *Part 1 — Identity Management, Device Joining, Licensing & Custom Security Attributes*
+# **Note 3 - Implementing an Identity Management Solution - Part 1**
+### *Part 1 - Identity Management, Device Joining, Licensing & Custom Security Attributes*
 
 ---
 
@@ -25,7 +25,7 @@ Watched a lab covering user and group management in Microsoft Entra ID. Performe
 
 Dynamic groups use attribute-based rules to automatically assign membership. Rules follow this pattern:
 
-> `attribute — operator — value`
+> `attribute - operator - value`
 
 ---
 
@@ -44,19 +44,19 @@ Match users whose company name does not equal a specific value.
 
 ### **Operators**
 
-**startsWith** — The attribute value begins with the specified string.
+**startsWith** - The attribute value begins with the specified string.
 
-**eq** — The attribute value exactly equals the specified value.
+**eq** - The attribute value exactly equals the specified value.
 
-**ne** — The attribute value does not equal the specified value.
+**ne** - The attribute value does not equal the specified value.
 
 ---
 
 ### **Connectors**
 
-**AND** — All rules in the set must be true for a match.
+**AND** - All rules in the set must be true for a match.
 
-**OR** — At least one rule in the set must be true for a match.
+**OR** - At least one rule in the set must be true for a match.
 
 ---
 
@@ -69,7 +69,7 @@ An owner can only manage users within their specific group. They do not automati
 Members can be manually added or removed at any time.
 
 **Dynamic group membership**
-Dynamic groups cannot have manually added members — membership is ruled entirely by the defined query.
+Dynamic groups cannot have manually added members - membership is ruled entirely by the defined query.
 
 ---
 
@@ -113,7 +113,7 @@ Assigned SG1 ← Role Assignment → Assigned SG2 ← Assigned SG3
 
 ---
 
-## **Entra ID Registered Devices — BYOD**
+## **Entra ID Registered Devices - BYOD**
 
 Microsoft Entra ID supports **Bring Your Own Device (BYOD)**.
 
@@ -153,9 +153,9 @@ Entra ID joined devices are intended for **cloud-first or cloud-only** organisat
 
 A device can be in one of two states:
 
-**Entra ID Joined** — Cloud only. No on-premises dependency.
+**Entra ID Joined** - Cloud only. No on-premises dependency.
 
-**Hybrid Joined** — Connected to both cloud (Entra ID) and on-premises (Active Directory).
+**Hybrid Joined** - Connected to both cloud (Entra ID) and on-premises (Active Directory).
 
 ---
 
@@ -196,7 +196,7 @@ These are fundamentally incompatible. GPOs cannot exist in Entra ID.
 
 ---
 
-# **Licensing — Azure & Entra**
+# **Licensing - Azure & Entra**
 
 ---
 
@@ -204,11 +204,11 @@ These are fundamentally incompatible. GPOs cannot exist in Entra ID.
 
 Azure is free at its base level. Advanced IAM features require one of the following:
 
-**P1 licence** — Core premium identity features.
+**P1 licence** - Core premium identity features.
 
-**P2 licence** — Includes everything in P1, plus advanced protection and governance.
+**P2 licence** - Includes everything in P1, plus advanced protection and governance.
 
-**Identity Governance (Entra Suite)** — Includes:
+**Identity Governance (Entra Suite)** - Includes:
 - Privileged Identity Management (PIM)
 - Entitlement Management
 - Governance features
@@ -237,9 +237,9 @@ Custom Security Attributes are available under **P1 / P2 licences**.
 
 Before using CSAs, a **Global Administrator** must assign themselves one of the following roles:
 
-- **Attribute Assignment Administrator** — Can assign attribute values to users and apps.
-- **Attribute Definition Administrator** — Can create and manage attribute sets and definitions.
-- **Attribute Assignment Reader** — Can view attribute values without modifying them.
+- **Attribute Assignment Administrator** - Can assign attribute values to users and apps.
+- **Attribute Definition Administrator** - Can create and manage attribute sets and definitions.
+- **Attribute Assignment Reader** - Can view attribute values without modifying them.
 
 ---
 
@@ -250,9 +250,9 @@ Before using CSAs, a **Global Administrator** must assign themselves one of the 
 **Description:** Access control for the HR team.
 
 **Defined values:**
-- Level 1 — Low
-- Level 2 — Medium
-- Level 3 — High
+- Level 1 - Low
+- Level 2 - Medium
+- Level 3 - High
 
 ---
 
@@ -287,11 +287,11 @@ Tag applications or service principals for Conditional Access filtering based on
 Store employee metadata such as clearance level, project team, or employment type.
 
 **Data Privacy**
-Restrict attribute visibility to authorised administrators only — other admins cannot read the values.
+Restrict attribute visibility to authorised administrators only - other admins cannot read the values.
 
 ---
 
-# **Exam Notes — Critical**
+# **Exam Notes - Critical**
 
 ---
 
@@ -304,18 +304,18 @@ They cannot be assigned to groups or devices.
 **Scope delegation must be attribute-set specific.**
 It cannot be granted at the tenant-wide level.
 
-**CSAs and attribute sets cannot be deleted — only deactivated.**
+**CSAs and attribute sets cannot be deleted - only deactivated.**
 
 **CSAs and attribute sets cannot be renamed.**
 Only descriptions can be changed after creation.
 
 **CSAs cannot be used in dynamic group rules.**
 
-**CSAs can be used in Conditional Access (ABAC — Attribute-Based Access Control).**
+**CSAs can be used in Conditional Access (ABAC - Attribute-Based Access Control).**
 
 ---
 
-## **Conditional Access Example — ABAC**
+## **Conditional Access Example - ABAC**
 
 **Policy: Block access to any enterprise application where:**
 
