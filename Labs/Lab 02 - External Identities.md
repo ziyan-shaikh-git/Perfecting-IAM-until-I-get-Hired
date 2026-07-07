@@ -26,7 +26,7 @@ This lab focuses on understanding how external collaboration, identity providers
 I began by reviewing the **Default Directory** properties to understand tenant-level configurations such as region, language, and access management.  
 Key details included tenant ID, technical contact, and privacy settings.
 
-[![Tenant Properties](Screenshots/Default_Directory_Properties.png)](Screenshots/Default_Directory_Properties.png)
+[![Tenant Properties](Screenshots/Configuring_Tenant_wide_settings.png)](Screenshots/Configuring_Tenant_wide_settings.png)
 
 ---
 
@@ -39,7 +39,7 @@ I ensured that:
 - LinkedIn account connections are enabled for professional integration.  
 - “Keep user signed in” is turned on for better session continuity.
 
-[![User Settings](Screenshots/User_Settings.png)](Screenshots/User_Settings.png)
+[![User Settings](Screenshots/Tenant-wide-settings-for-users.png)](Screenshots/Tenant-wide-settings-for-users.png)
 
 ---
 
@@ -52,7 +52,7 @@ Key configurations included:
 - Enabling external users to remove themselves from the organization.  
 - Setting collaboration restrictions to control domain invitations.
 
-[![External Collaboration Settings](Screenshots/External_Collaboration_Settings.png)](Screenshots/External_Collaboration_Settings.png)
+[![External Collaboration Settings](Screenshots/Tenant-wide-settings-4-guests.png)](Screenshots/Tenant-wide-settings-4-guests.png)
 
 ---
 
@@ -66,7 +66,7 @@ The following providers were active:
 
 Additionally, Google and Facebook were available for configuration, offering flexibility for external identity management.
 
-[![Identity Providers](Screenshots/All_Identity_Providers.png)](Screenshots/All_Identity_Providers.png)
+[![Identity Providers](Screenshots/External-Identity-providers-within-tenant.png)](Screenshots/External-Identity-providers-within-tenant.png)
 
 ---
 
@@ -78,7 +78,7 @@ I confirmed that:
 - B2B direct connect is blocked for both users and applications.  
 - Tenant restrictions are applied to block external users and applications by default.
 
-[![Cross-Tenant Access Settings](Screenshots/Cross_Tenant_Access_Settings.png)](Screenshots/Cross_Tenant_Access_Settings.png)
+[![Cross-Tenant Access Settings](Screenshots/Cross-tenant-Access.png)](Screenshots/Cross-tenant-Access.png)
 
 ---
 
@@ -102,11 +102,11 @@ This lab deepened my understanding of how organizations manage external collabor
 
 | Step | Description | Screenshot |
 |------|--------------|-------------|
-| 1 | Tenant Properties | [View](Screenshots/Default_Directory_Properties.png) |
-| 2 | User Settings | [View](Screenshots/User_Settings.png) |
-| 3 | External Collaboration Settings | [View](Screenshots/External_Collaboration_Settings.png) |
-| 4 | Identity Providers | [View](Screenshots/All_Identity_Providers.png) |
-| 5 | Cross-Tenant Access Settings | [View](Screenshots/Cross_Tenant_Access_Settings.png) |
+| 1 | Tenant Properties | [View](Screenshots/Configuring_Tenant_wide_settings.png) |
+| 2 | User Settings | [View](Screenshots/Tenant-wide-settings-for-users.png) |
+| 3 | External Collaboration Settings | [View](Screenshots/Tenant-wide-settings-4-guests.png) |
+| 4 | Identity Providers | [View](Screenshots/External-Identity-providers-within-tenant.png) |
+| 5 | Cross-Tenant Access Settings | [View](Screenshots/Cross-tenant-Access.png) |
 
 ---
 
